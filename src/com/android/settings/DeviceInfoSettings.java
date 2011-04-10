@@ -65,13 +65,16 @@ public class DeviceInfoSettings extends PreferenceActivity {
         String currentIme = Settings.Secure.getString(getContentResolver(),
                 Settings.Secure.DEFAULT_INPUT_METHOD);
         ComponentName component = ComponentName.unflattenFromString(currentIme);
-        Intent imeIntent = new Intent(component.getPackageName() + ".tutorial");
-        PackageManager pm = getPackageManager();
-        List<ResolveInfo> tutorials = pm.queryIntentActivities(imeIntent, 0);
-        if(tutorials == null || tutorials.isEmpty()) {
+        if(component != null) {
+            Intent imeIntent = new Intent(component.getPackageName() + ".tutorial");
+            PackageManager pm = getPackageManager();
+            List<ResolveInfo> tutorials = pm.queryIntentActivities(imeIntent, 0);
+            if(tutorials == null || tutorials.isEmpty()) {
+                getPreferenceScreen().removePreference(findPreference("system_tutorial"));
+            }
+        } else {
             getPreferenceScreen().removePreference(findPreference("system_tutorial"));
         }
-
         setStringSummary("device_cpu", getCPUInfo());
         setStringSummary("device_memory", getMemAvail().toString()+" MB / "+getMemTotal().toString()+" MB");
         setStringSummary("firmware_version", Build.VERSION.RELEASE);
