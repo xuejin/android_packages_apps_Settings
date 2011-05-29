@@ -122,8 +122,7 @@
     <CheckBoxPreference
             android:key="power_sounds"
             android:title="@string/power_sounds_enable_title"
-            android:summaryOn="@string/power_sounds_enable_summary_on"
-            android:summaryOff="@string/power_sounds_enable_summary_off"
+            android:summary="@string/power_sounds_enable_summary"
             android:defaultValue="true" />
 
     <CheckBoxPreference
