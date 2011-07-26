@@ -255,6 +255,24 @@
         <item>TTLS</item>
     </string-array>
 
+    <!-- Bluetooth Settings -->
+
+    <!-- Discoverable mode timeout options -->
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 Minutes</item>
+        <item>5 Minutes</item>
+        <item>1 Hour</item>
+        <item>Never</item>
+    </string-array>
+
+    <!-- Values for visibility_duration_entries matching constants in BluetoothSettings. Do not translate. -->
+    <string-array name="bluetooth_visibility_timeout_values" translatable="false">
+        <item>twomin</item>
+        <item>fivemin</item>
+        <item>onehour</item>
+        <item>never</item>
+    </string-array>
+
     <!-- Match this with drawable.wifi_signal. --> <skip />
     <!-- Wi-Fi settings. The signal strength a Wi-Fi network has. -->
     <string-array name="wifi_signal">
@@ -474,22 +492,6 @@
     <string-array name="backgroundWidget">
         <item>Grey</item>
         <item>Transparent</item>
-    </string-array>
-
-    <string-array name="bluetooth_discoverable_duration_entries">
-        <item>60 seconds</item>
-        <item>120 seconds</item>
-        <item>300 seconds</item>
-        <item>600 seconds</item>
-        <item>Infinite</item>
-    </string-array>
-
-    <string-array name="bluetooth_discoverable_duration_values" translatable="false">
-        <item>60</item>
-        <item>120</item>
-        <item>300</item>
-        <item>600</item>
-        <item>0</item>
     </string-array>
 
 </resources>
