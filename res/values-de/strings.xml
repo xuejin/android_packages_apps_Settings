@@ -94,6 +94,9 @@
     <string name="bluetooth_not_discoverable" msgid="128269993123955177">"Gerät sichtbar machen"</string>
     <string name="bluetooth_visibility_timeout" msgid="6634508002347847278">"Timeout für Sichtbarkeit"</string>
     <string name="bluetooth_visibility_timeout_summary" msgid="6483353842671501585">"Stellen Sie ein, wie lang das Gerät sichtbar sein soll."</string>
+    <string name="bluetooth_fast_connect">Schnelle Verbindung</string>
+    <string name="bluetooth_fast_connect_on">Audio- und Telefonverbindung gleichzeitig aufbauen (kann Kompatibilitätsprobleme verursachen)</string>
+    <string name="bluetooth_fast_connect_off">Audioverbindung später als Telefonverbindung aufbauen</string>
     <string name="bluetooth_lock_voice_dialing" msgid="3139322992062086225">"Sprachwahl sperren"</string>
     <string name="bluetooth_lock_voice_dialing_summary" msgid="4741338867496787042">"Verwendung des Bluetooth-Dialers bei gesperrtem Bildschirm verhindern"</string>
     <string name="bluetooth_devices" msgid="1886018064039454227">"Bluetooth-Geräte"</string>
@@ -1134,7 +1137,7 @@
     <string name="vpn_openvpn_redirect_gateway_title">Redirect-Gateway</string>
     <string name="vpn_openvpn_redirect_gateway_summary">Gesamten Verkehr durch den VPN-Tunnel routen</string>
     <string name="vpn_openvpn_set_addr">Remote setzt Adressen</string>
-    <string name="vpn_openvpn_set_addr_summary">Abwählen um Tunnel-Adressen manuell einzustellen</string>
+    <string name="vpn_openvpn_set_addr_summary">Abwählen, um Tunnel-Adressen manuell einzustellen</string>
     <string name="vpn_openvpn_set_local_addr">Lokale IP-Adresse</string>
     <string name="vpn_openvpn_set_remote_addr">Remote IP-Adresse</string>
     <string name="vpn_openvpn_set_cipher">Chiffrier-Algorithmus</string>
@@ -1143,8 +1146,13 @@
     <string name="vpn_openvpn_set_keysize">Größe des Chiffrier-Schlüssels</string>
     <string name="vpn_openvpn_set_keysize_message">Leer lassen für Standard</string>
     <string name="vpn_openvpn_set_keysize_default">Standard</string>
-    <string name="vpn_openvpn_set_extra">Extra Argumente</string>
-    <string name="vpn_openvpn_set_extra_message">Extra Kommandozeilenargumente eingeben</string>
+    <string name="vpn_openvpn_set_extra">Zusätzliche Argumente</string>
+    <string name="vpn_openvpn_set_extra_message">Zusätzliche Kommandozeilenargumente eingeben</string>
+    <string name="vpn_openvpn_set_use_tls_auth">TLS-Authentifizierung</string>
+    <string name="vpn_openvpn_set_use_tls_auth_summary">TLS-Authentifizierungsschlüssel verwenden</string>
+    <string name="vpn_openvpn_set_tls_auth_key">TLS-Schlüsseldatei</string>
+    <string name="vpn_openvpn_set_tls_auth_key_summary">Speicherort der zur TLS-Authentifizierung verwendeten Schlüsseldatei</string>
+    <string name="vpn_openvpn_set_tls_auth_key_direction">TLS-Schlüsselrichtung</string>
 
     <string name="vpn_ipsec_presharedkey_title" msgid="2184060087690539175">"Vorinstallierten IPSec-Schlüssel festlegen"</string>
     <string name="vpn_ipsec_presharedkey" msgid="5434316521616673741">"Vorinstallierter IPSec-Schlüssel"</string>
