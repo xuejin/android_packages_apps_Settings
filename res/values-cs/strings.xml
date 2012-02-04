@@ -1016,6 +1016,9 @@
   <string name="development_settings_summary" msgid="2151320488701538355">"Umožňuje nastavit možnosti pro vývoj aplikací"</string>
   <string name="enable_adb" msgid="7982306934419797485">"Ladění USB"</string>
   <string name="enable_adb_summary" msgid="4881186971746056635">"Povolit režim ladění s připojeným zařízením USB"</string>
+  <string name="adb_over_network">ADB přes síť</string>
+  <string name="adb_over_network_summary">Použít ladění přes síťové připojení (např. WiFi) místo USB. Toto nastavení bude obnoveno po restartu.</string>
+  <string name="adb_over_network_warning">OPOZORNĚNÍ: Pokud je povoleno ADB přes síťové připojení, zařízení je otevřené pro pokusy o průniky na všech připojených sítích, včetně GSM datové sítě!\n\nPoužijte tuto vlastnost pouze pokud jste připojeni k důvěryhodné síti.\n\nOpravdu chcete povolit tuto funkci?</string>
   <string name="adb_notify">Upozornění na ladění USB</string>
   <string name="adb_notify_summary">Zobrazit upozornění při připojení ladění USB</string>
   <string name="keep_screen_on" msgid="1146389631208760344">"Nevypínat obrazovku"</string>
