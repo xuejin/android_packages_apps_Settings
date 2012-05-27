@@ -66,13 +66,20 @@
         android:title="@string/launcher_settings_title"
         android:icon="@drawable/ic_settings_cmlauncher" />
 
+    <!-- Lock screen -->
+    <header
+        android:id="@+id/lock_screen_settings"
+        android:fragment="com.android.settings.cyanogenmod.LockscreenInterface"
+        android:title="@string/lock_screen_title"
+        android:icon="@drawable/ic_settings_lockscreen" />
+
     <!-- Themes -->
     <header
         android:id="@+id/themes_settings"
         android:icon="@drawable/ic_settings_themes"
         android:fragment="com.android.settings.cyanogenmod.ThemesSettings"
         android:title="@string/themes_settings_title" />
- 
+
     <!-- System -->
     <header
         android:id="@+id/system_settings"
