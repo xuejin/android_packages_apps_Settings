@@ -3137,4 +3137,13 @@ found in the list of installed applications.</string>
 
     <!-- Unlock finger settings screen, change unlock finger screen countdown hint on bottom of screen when the screen is locked out -->
     <string name="lockfinger_lockout_countdown_footer">Try again in %d seconds.</string>
+
+    <!-- Style for pattern lockscreen rings -->
+    <string name="pref_pattern_style_title">Pattern style</string>
+    <string name="pref_pattern_style_summary">Choose the style of the pattern rings</string>
+    <string name="ringlock_style_entry_dots">Default style</string>
+    <string name="ringlock_style_entry_revamped">Revamped style</string>
+    <string name="ringlock_style_entry_holo">Holo style</string>
+    <string name="ringlock_style_entry_blade">Blade style</string>
+
 </resources>

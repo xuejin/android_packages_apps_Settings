@@ -1448,4 +1448,13 @@
 
     <!-- Unlock finger settings screen, change unlock finger screen countdown hint on bottom of screen when the screen is locked out -->
     <string name="lockfinger_lockout_countdown_footer">%d 秒後に再試行してください。</string>
+
+    <!-- Style for pattern lockscreen rings -->
+    <string name="pref_pattern_style_title">ロック解除パターンスタイル</string>
+    <string name="pref_pattern_style_summary">ロック解除パターンのリングスタイルを選択</string>
+    <string name="ringlock_style_entry_dots">デフォルトスタイル</string>
+    <string name="ringlock_style_entry_revamped">リヴァンプスタイル</string>
+    <string name="ringlock_style_entry_holo">ホロスタイル</string>
+    <string name="ringlock_style_entry_blade">ブレードスタイル</string>
+
 </resources>
