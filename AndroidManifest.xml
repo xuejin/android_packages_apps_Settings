@@ -1389,6 +1389,8 @@
 
         <activity android:name=".profiles.NFCProfileWriter" />
 
+        <activity android:name=".profiles.NFCProfileSelect" />
+
         <activity android:name=".cyanogenmod.LockscreenTargets" />
 
         <activity android:name=".cyanogenmod.LockscreenInterface" />
@@ -1409,6 +1411,8 @@
         <activity android:name=".ApnEditor" />
 
         <activity android:name=".notificationlight.NotificationLightSettings" />
+
+        <activity android:name=".notificationlight.BatteryLightSettings" />
 
         <activity android:name="Settings$AnonymousStatsActivity"
                 android:label="@string/anonymous_statistics_title"

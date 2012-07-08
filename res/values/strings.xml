@@ -738,8 +738,14 @@
     <string name="summary_font_size" translatable="false">%1$s</string>
     <!-- [CHAR LIMIT=40] Sound & display settings screen, title of dialog for picking font size -->
     <string name="dialog_title_font_size">Font size</string>
-    <!-- Display settings screen, battery light repeat pulsing title -->
-    <string name="battery_pulse_title">Pulse low battery light</string>
+
+    <!-- Battery light settings #CM -->
+    <string name="battery_light_title">Battery light</string>
+    <string name="battery_low_pulse_title">Pulse if battery low</string>
+    <string name="battery_light_list_title">Colors</string>
+    <string name="battery_light_low_color_title">Battery low</string>
+    <string name="battery_light_medium_color_title">Charging</string>
+    <string name="battery_light_full_color_title">Fully charged</string>
 
     <!-- Backlight #CM -->
     <string name="backlight_title">Automatic backlight</string>
@@ -906,6 +912,8 @@
     <string name="pref_flash_mode_title">Flash mode</string>
     <string name="pref_flash_mode_summary">Choose High / Death Ray</string>
 
+    <string name="toggles_not_enough_space">Space is limited to six toggles</string>
+
     <!-- Power Widget, Haptic feedback #CM -->
     <string name="expanded_haptic_feedback_title">Haptic feedback</string>
     <string name="expanded_haptic_feedback_summary">Enable/disable haptic feedback</string>
@@ -954,19 +962,17 @@
     <string name="weather_use_custom_location">Use custom location</string>
     <string name="weather_geolocated">Geolocated using network</string>
     <string name="weather_custom_location_dialog_title">Enter location</string>
-    <string name="weather_custom_location_dialog_message">Caution: Entering an invalid location will stop updates.</string>
     <string name="weather_custom_location_hint">City, State/Country</string>
     <string name="weather_custom_location_title">Location</string>
     <string name="weather_show_location_title">Show location</string>
     <string name="weather_show_timestamp_title">Show timestamp</string>
     <string name="weather_refresh_interval">Update interval</string>
-    <string name="weather_update">Update</string>
     <string name="weather_use_metric">Use metric</string>
-    <string name="weather_refreshing">Updating weather</string>
     <string name="weather_retrieve_location_dialog_title">Cannot retrieve location!</string>
     <string name="weather_retrieve_location_dialog_message">Network geolocation is disabled.\n\nSet a custom location or enable network location</string>
     <string name="weather_retrieve_location_dialog_enable_button">Enable</string>
     <string name="weather_invert_lowhigh">Invert low/high temperatures</string>
+    <string name="weather_progress_title">Verifying location</string>
 
     <!-- Lock screen Weather - Update frequency -->
     <string name="weather_refresh_manual">Manual</string>
@@ -1002,6 +1008,15 @@
     <string name="calendar_metadata_none">Do not show</string>
     <string name="calendar_metadata_first_line">Show first line</string>
     <string name="calendar_metadata_all">Show all</string>
+
+    <!-- Lock screen background -->
+    <string name="lockscreen_custom_background_title">Background</string>
+    <string name="lockscreen_custom_background_dialog_title">Choose color</string>
+    <string name="lockscreen_background_result_successful">Background changed</string>
+    <string name="lockscreen_background_result_not_successful">Background not changed</string>
+    <string name="lockscreen_background_color_fill">Color fill</string>
+    <string name="lockscreen_background_custom_image">Custom image</string>
+    <string name="lockscreen_background_default_wallpaper">Default wallpaper</string>
 
     <!-- Wallpaper settings title [CHAR LIMIT=30] -->
     <string name="wallpaper_settings_title">Wallpaper</string>
@@ -1140,7 +1155,7 @@
     <!-- Text shown for title of owner info setting [CHAR LIMIT=20]-->
     <string name="owner_info_settings_title">Owner info</string>
     <!-- Text shown for summary of owner info setting [CHAR LIMIT=40]-->
-    <string name="owner_info_settings_summary"></string>
+    <string name="owner_info_settings_summary">Display owner information on lock screen</string>
     <!-- Hint text shown in owner info edit text [CHAR LIMIT=50] -->
     <string name="owner_info_settings_edit_text_hint">Type text to display on the lock screen</string>
     <!-- Main Settings screen setting option title for the item to take you to the location screen -->
@@ -2756,6 +2771,17 @@
     <!-- Tethering help button - calls up a web view with general tethering info -->
     <string name="tethering_help_button_text">Help</string>
 
+    <!-- Advanced tethering settings -->
+    <string name="tethering_advanced_text">Advanced</string>
+    <string name="tethering_lease_time_text">DHCP lease time</string>
+    <string name="dhcp_lease_30mn">30 minutes</string>
+    <string name="dhcp_lease_1h">1 hour (default)</string>
+    <string name="dhcp_lease_2h">2 hours</string>
+    <string name="dhcp_lease_4h">4 hours</string>
+    <string name="dhcp_lease_6h">6 hours</string>
+    <string name="dhcp_lease_12h">12 hours</string>
+    <string name="dhcp_lease_24h">24 hours</string>
+
     <!-- Wireless controls, item title to go into the network settings -->
     <string name="network_settings_title">Mobile networks</string>
 
@@ -3263,7 +3289,7 @@ found in the list of installed apps.</string>
     <string name="pointer_speed">Pointer speed</string>
     <!-- Whether to display IME switcher notifcation -->
     <string name="ime_switcher_notify">Selector notification</string>
-    <string name="ime_switcher_notify_summary">Display input method selector notification (requires reboot)</string>
+    <string name="ime_switcher_notify_summary">Display input method selector notification</string>
 
     <!-- User dictionary settings --><skip />
     <!-- User dictionary settings, The titlebar text of the User dictionary settings screen. -->
@@ -4449,6 +4475,11 @@ found in the list of installed apps.</string>
     "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->
     <string name="additional_system_update_settings_list_item_title">Additional system updates</string>
 
+    <!-- Electron Beam -->
+    <string name="display_category_animation_options_title">Animation</string>
+    <string name="display_electron_beam_animation_on_title">Screen-on animation</string>
+    <string name="display_electron_beam_animation_off_title">Screen-off animation</string>
+
     <!-- Wakeup options -->
     <string name="display_category_wakeup_options_title">Wakeup options</string>
     <string name="pref_volume_wake_title">Volume rocker wake</string>
@@ -4459,6 +4490,20 @@ found in the list of installed apps.</string>
     <string name="profile_write_success">Tag successfully written</string>
     <string name="profile_write_failed">Tag writing failed!</string>
     <string name="profile_selected">Profile selected: %1$s</string>
-    <string name="profile_nfc_text">Writing a profile to an NFC tag allows you to tap the tag to select that profile. Tapping a second time will select the previously selected profile.</string>
+    <string name="profile_nfc_text">Writing a profile to a NFC tag allows for tapping the tag to select the profile. Tapping a second time will select the previously selected profile.</string>
+    <string name="profile_unknown_nfc_tag">Unknown profile</string>
+    <string name="profile_add_nfc_text">This NFC tag refers to an unknown profile. Attaching this NFC tag to an existing profile will allow for selecting the profile in the future.</string>
+    <string name="profile_select">Select profile</string>
+
+    <!-- Stylus Icon -->
+    <string name="stylus_icon_enabled_title">Show icon when using stylus</string>
+    <string name="stylus_icon_enabled_summary">Show the pointer icon when hovering or drawing with the stylus</string>
+
+    <!-- Hostname setting -->
+    <string name="device_hostname">Device hostname</string>
+
+    <!-- Status bar notification count -->
+    <string name="status_bar_notif_count_title">Show notification count</string>
+    <string name="status_bar_notif_count_summary">Display number of pending notifications on the status bar</string>
 </resources>
 

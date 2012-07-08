@@ -47,10 +47,24 @@
             android:title="@string/notification_pulse_title"
             android:fragment="com.android.settings.notificationlight.NotificationLightSettings" />
 
+        <PreferenceScreen
+            android:key="battery_light"
+            android:title="@string/battery_light_title"
+            android:fragment="com.android.settings.notificationlight.BatteryLightSettings" />
+
+        <PreferenceCategory
+            android:key="category_animation_options"
+            android:title="@string/display_category_animation_options_title"/>
+
         <CheckBoxPreference
-            android:key="battery_pulse"
-            android:title="@string/battery_pulse_title"
-            android:persistent="false" />
+            android:key="electron_beam_animation_on"
+            android:title="@string/display_electron_beam_animation_on_title"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:key="electron_beam_animation_off"
+            android:title="@string/display_electron_beam_animation_off_title"
+            android:defaultValue="true" />
 
         <PreferenceCategory
             android:key="category_wakeup_options"
