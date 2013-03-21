@@ -1465,4 +1465,27 @@
 
     <!-- Unlock finger settings screen, change unlock finger screen countdown hint on bottom of screen when the screen is locked out -->
     <string name="lockfinger_lockout_countdown_footer">请在 %d 秒内重试。</string>
+    
+     <!-- Style for pattern lockscreen rings -->
+    <string name="pref_pattern_style_title">图案风格</string>
+    <string name="pref_pattern_style_summary">选择图案的风格</string>
+    <string name="ringlock_style_entry_dots">默认风格</string>
+    <string name="ringlock_style_entry_revamped">全新风格</string>
+    <string name="ringlock_style_entry_holo">Holo风格</string>
+    <string name="ringlock_style_entry_blade">刀片风格</string>
+
+    <string name="increasing_ring_title">提高铃声音量</string>
+    <!-- Sound settings screen, the caption of the checkbox for making incoming calls increas in volume -->
+    <string name="checkbox_increasing_ring">启用提高音量</string>
+    <!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
+    <string name="increasing_ring_min_volume_title">振铃起始音量</string>
+    <string name="increasing_ring_volume_notice">注意:\n由于起始音量设置高于振铃的音量，将使用振铃的音量播放铃声.</string>
+    <string name="increasing_ring_interval_title">提高时间间隔</string>
+    <string name="increasing_ring_interval_eachring">整个铃声</string>
+    <string name="increasing_ring_interval_half_second">0.5 秒</string>
+    <string name="increasing_ring_interval_1second">1 秒</string>
+    <string name="increasing_ring_interval_2seconds">2 秒</string>
+    <string name="increasing_ring_interval_3seconds">3 秒</string>
+    <string name="increasing_ring_interval_5seconds">5 秒</string>
+    <string name="increasing_ring_interval_10seconds">10 秒</string>
 </resources>
